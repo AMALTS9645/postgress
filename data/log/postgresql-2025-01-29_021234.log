@@ -1,0 +1,16 @@
+2025-01-29 02:12:34.180 IST [5040] LOG:  database system was shut down at 2025-01-29 02:12:26 IST
+2025-01-29 02:17:34.238 IST [23096] LOG:  checkpoint starting: time
+2025-01-29 02:17:42.115 IST [23096] LOG:  checkpoint complete: wrote 74 buffers (0.5%); 0 WAL file(s) added, 0 removed, 0 recycled; write=7.844 s, sync=0.018 s, total=7.878 s; sync files=31, longest=0.002 s, average=0.001 s; distance=408 kB, estimate=408 kB; lsn=0/15D93D8, redo lsn=0/15D93A0
+2025-01-29 02:21:03.289 IST [6500] ERROR:  incompatible library "C:/Program Files/PostgreSQL/16/lib/vector.dll": version mismatch
+2025-01-29 02:21:03.289 IST [6500] DETAIL:  Server is version 16, library is version 17.
+2025-01-29 02:21:03.289 IST [6500] STATEMENT:  create EXTENSION vector;
+2025-01-29 02:21:52.950 IST [6500] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-01-29 02:21:52.950 IST [3524] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-01-29 02:22:34.131 IST [23096] LOG:  checkpoint starting: time
+2025-01-29 02:22:36.731 IST [23096] LOG:  checkpoint complete: wrote 24 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=2.542 s, sync=0.046 s, total=2.601 s; sync files=19, longest=0.039 s, average=0.003 s; distance=98 kB, estimate=377 kB; lsn=0/15F1BE8, redo lsn=0/15F1BB0
+2025-01-29 02:57:34.970 IST [23096] LOG:  checkpoint starting: time
+2025-01-29 02:57:52.549 IST [23096] LOG:  checkpoint complete: wrote 160 buffers (1.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=17.459 s, sync=0.084 s, total=17.600 s; sync files=60, longest=0.039 s, average=0.002 s; distance=949 kB, estimate=949 kB; lsn=0/16DF320, redo lsn=0/16DF2E8
+2025-01-29 05:03:40.000 IST [23096] LOG:  checkpoint starting: time
+2025-01-29 05:03:41.921 IST [23096] LOG:  checkpoint complete: wrote 1 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.195 s, sync=0.002 s, total=1.964 s; sync files=1, longest=0.002 s, average=0.002 s; distance=4 kB, estimate=855 kB; lsn=0/16E0340, redo lsn=0/16E0308
